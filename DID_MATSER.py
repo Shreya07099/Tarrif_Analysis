@@ -3,6 +3,7 @@ import statsmodels.api as sm
 import statsmodels.formula.api as smf
 import seaborn as sns
 import matplotlib.pyplot as plt
+#Data cleaninng performed Prior to analysis_ master_data has all the information required
 df = pd.read_csv('DiD_master_data.csv')
 print("--- Step 1: Master data file loaded successfully. ---")
 df['date'] = pd.to_datetime(df['date'], format='%d-%m-%Y', errors='coerce')#date time format
