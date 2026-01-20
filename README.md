@@ -10,7 +10,7 @@ The analysis reveals several important insights:
 
 - **No statistically significant policy impact** was detected on export values by the 5th April Tariff announcement(exactly on 5th April), we see huges changes on implication of tariffs, slightly delayed
 - The treatment effect coefficient was estimated at -23.23 million, suggesting a potential negative impact
-- However, this effect is not statistically significant (p-value = 0.697)
+- However, this effect is not statistically significant (p-value = 0.697), possibly due to the need and lack thereof a larger sample size(dataset)
 - The 95% confidence interval ranges from -144 million to 97.3 million, which includes zero
 - This indicates that we cannot reject the null hypothesis of no policy effect
 
@@ -63,10 +63,7 @@ The core DiD model specification follows standard econometric practice:
 - Proper variable transformation and encoding
 - Robust handling of missing values and outliers
 
-### Statistical Analysis
-- Implementation of DiD methodology using econometric best practices
-- Comprehensive diagnostic testing of model assumptions
-- Sensitivity analysis to validate robustness of findings
+
 
 ## Files Included
 - Complete Python analysis script with detailed comments
