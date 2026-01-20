@@ -69,7 +69,7 @@ The core DiD model specification follows standard econometric practice:
 - Complete Python analysis script with detailed comments
 - Dataset used for the analysis
 - Visualization code for parallel trends plots
-- Model diagnostics and validation scripts
+
 
 ## Future Work
 - Extend analysis with additional control variables
